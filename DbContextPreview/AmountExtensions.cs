@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DbContextPreview
 {
-	public partial class Amount
+	public partial class Amount 
 	{
 		public void OnMaximumAmountChanging()
 		{
-			throw new System.NotImplementedException();
+			throw new System.NotImplementedException(); 
 		}
 	}
 }
