@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6a64132b5f584db69d9b81850009aefc" Name="Diagram1">
+        <EntityTypeShape EntityType="DbContextPreview.Amount" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbContextPreview.Recipe" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbContextPreview.RecipeIngredient" Width="1.75" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbContextPreview.RecipeStep" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <AssociationConnector Association="DbContextPreview.FK_Amount_Recipe" ManuallyRouted="false" />
+        <AssociationConnector Association="DbContextPreview.FK_RecipeIngredient_Recipe" ManuallyRouted="false" />
+        <AssociationConnector Association="DbContextPreview.FK_RecipeStep_Recipe" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
