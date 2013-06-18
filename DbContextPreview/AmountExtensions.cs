@@ -8,9 +8,25 @@ namespace DbContextPreview
 {
 	public partial class Amount 
 	{
+
+		public string DisplayAmount
+		{
+			get
+			{
+				return this.MinimumAmount +
+					" to " + this.MaximumAmount
+					+ " " + this.Unit;
+			}
+
+		}
+		
+
+		/// <summary>
+		/// 
+		/// </summary>
 		public void OnMaximumAmountChanging()
 		{
-			throw new System.NotImplementedException(); 
+			Console.WriteLine("maximum amount is changing"); 
 		}
 	}
 }

@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="DbContextPreview.Program">
-    <Position X="7.75" Y="0.5" Width="1.5" />
+    <Position X="7.75" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbContextPreview.RecipeEntities">
-    <Position X="1.75" Y="2.75" Width="2" />
+    <Position X="1.75" Y="2.75" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAEQAAAAAAgQAAAAAAAAA=</HashCode>
       <FileName>Recipes.Context.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbContextPreview.Amount">
-    <Position X="6" Y="2.5" Width="1.5" />
+    <Position X="6.75" Y="2.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAFAAAAAQQAAIAAAACAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <HashCode>AAAAAAFAAAAAQQAAIAAAACAAAAAAAgAAAAAAAAQAAAA=</HashCode>
       <FileName>Amount.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbContextPreview.Recipe">
-    <Position X="4" Y="0.5" Width="1.75" />
+    <Position X="4" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAACQgAAAAAAAAAAACAAAQAAAAAggQAQAAAAAAA=</HashCode>
       <FileName>Recipe.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbContextPreview.RecipeIngredient">
-    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Position X="2.25" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAABgAAAAAAAAAAAAACCAAAAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>RecipeIngredient.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbContextPreview.RecipeStep">
-    <Position X="6" Y="0.5" Width="1.5" />
+    <Position X="6" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAQAAABAAAAAAAAAAAAAACAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>RecipeStep.cs</FileName>
